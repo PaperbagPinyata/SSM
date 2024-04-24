@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    padding-bottom: 100px;
+}
+
+
+.home{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Roboto;
+    margin: 30px;
+}
+.s{
+    flex:1;
+    height: 30px;
+    margin-right: 30px;
+    border-radius: 100px;
+    border: none;
+    padding-left: 15px;
+    font-size: 15px;
+    font-family: Roboto;
+    max-width: 600px;
+}
+.b{
+    padding: 15px;
+    background-color: blueviolet;
+    border-style: double;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: Roboto;
+    transition: background-color 1s;
+}
+.b:hover{
+    background-color: rgb(157, 82, 228);
+    transition: background-color 1s;
+}
+.b:active{
+    background-color: rgb(209, 183, 233);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile{
+    box-shadow: black 0px 0px 8px 2px;
+    border-radius: 5px;
+}
+.photo{ 
+}
+
+.profilee{
+    object-fit: cover; 
+     
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.name{
+    font-family: Roboto;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.frens{
+    color: gray;
+    font-size: 12px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-top: 2px;
+    font-family: Roboto;
+}
+.add{
+    padding: 6px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    font-family: Roboto;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+    vertical-align:middle;
+    font-weight: bold;
+    transition: opacity 0.4s;
+}
+.add:active{
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+.Notifications{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 50px;
+}
+.border{
+    border: 1px;
+    box-shadow: black 0px 0px 8px 2px;
+    border-radius: 5px;
+    margin: 0px;
+    flex:1;
+    max-width: 300px;
+    padding: 10px;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto;
+    margin: 7px;
+    justify-content: space-between;
+    align-items: center;
+}
+.txt{
+    margin-right: 60px;
+    font-weight: bold;
+}
+.not{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
